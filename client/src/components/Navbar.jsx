@@ -8,8 +8,12 @@ const Navbar = () => {
           <h3 className="text-2xl">Wasan Hotels</h3>
         </div>
         <div className="flex flex-row">
-          <div className="px-4 py-2">Login</div>
-          <div className="px-4 py-2">Register</div>
+          <div className="px-4 py-2">
+            <a href="/login">Login</a>
+          </div>
+          <div className="px-4 py-2">
+            <a href="/register">Register</a>
+          </div>
         </div>
         {/* end of column */}
       </div>{" "}
