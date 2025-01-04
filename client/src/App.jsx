@@ -8,7 +8,6 @@ function App() {
 
   return (
     <>
-      <h3 className="text-amber-600 text-3xl text-center">Wasan Hotels</h3>
       <Navbar />
     </>
   );
